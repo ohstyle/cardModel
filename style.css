@@ -30,9 +30,44 @@ grid-row: 1/1;
    align-items: center;
 }
 .un{
-background: blueviolet;
+background: rgb(238, 236, 240);
+border: 1px solid grey;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 }
-.deux{
+.titre{
+   background: cadetblue;
+   width: 200px;
+   text-align: center;
+   font-weight: bolder;
+   
+}
+.un img{
+   width: 200px;
+   height: 150px;
+
+}
+.underImg{
+   letter-spacing: 0.03em;
+   font-weight: 900;
+   font-size: 1.1em;
+   
+}
+.name{
+color: blueviolet;
+font-style: italic;
+
+}
+.info{
+   color: rgb(161, 161, 161);
+   font-weight: lighter;
+   letter-spacing: 0.05em;
+}
+/* .deux{
 background: steelblue;
 }
 .trois{
@@ -40,7 +75,7 @@ background: tomato;
 }
 .quatre{
 background: yellow;
-}
+} */
 .footer{
 background: brown;
 grid-column: 1/span2;
